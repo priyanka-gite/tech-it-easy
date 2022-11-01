@@ -5,7 +5,6 @@ inventory.map((invent) => {
 return list.innerHTML += `<li>${invent.brand}</li>`
 })
 
-
 //Opdracht 3b: Schrijf de code uit 3a om naar een functie die een array met tv-objecten verwacht. Het is handig om onze scripts als functies op te zetten, zodat we ze gemakkelijk kunnen hergebruiken. Tip: vergeet deze functie -declaratie niet aan te roepen!
 
 const listOfBrands = function list(arr) {
