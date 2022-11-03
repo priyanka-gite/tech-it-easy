@@ -62,5 +62,11 @@ const tvWithAmbilight = inventory.filter((ambilights) => {
 console.log(tvWithAmbilight);
 
 //Opdracht 1d: Schrijf een functie die alle tv's van laagste naar hoogste prijs sorteert. Log de uitkomst in de console.
-const num = inventory .sort((a,b) =>(a.price > b.price ? 1 : -1));
-console.log(num);
+// const num = inventory .sort((a,b) =>(a.price > b.price ? 1 : -1));
+// console.log(num);
+
+function sorted ( arr) {
+  return   arr .sort((a,b) =>(a.price > b.price ? 1 : -1));
+}
+
+console.log(sorted(inventory));
