@@ -3,8 +3,47 @@
 <head>
     <meta charset="UTF-8">
     <title>Tech It Easy Dashboard</title>
+    <link rel="stylesheet" href="styles.css">
+
 </head>
 <body>
+<h3 class="color"> opdracht - two </h3>
+    <h1 > We sold <span id="totSaleGreen" class="color-green"></span> number of tv! </h1>
 
+    <h1> We sold <span id="totSaleBlue" class="color-blue"></span> number of tv! </h1>
+
+    <h1> there are <span id="remainingRed" class="color-red"></span> number of tvs left! </h1>
+
+
+<h3 class="color"> opdracht - three>
+    <h2> List of brand </h2>
+    <ul id="brands"> </ul>
+</h3>
+
+<h3 class="color"> opdracht - four </h3>
+
+<div id="allDetails">
+<h2 id="tvDetails" class="color-Tv-Details"> </h2>
+<h2 id="priceOfTv" class="color-price"> </h2>
+<h2 id="screenSize" class="color-screensize"> </h2>
+</div>
+
+<h3 class="color"> BonusOpdracht </h3>
+
+<button onclick= "sorted()" > Sort by Price </button>
+<p id="sorting" >sort by price</p>
+
+<button onclick="ambilights()" type="button"> Sort by Ambilights </button>
+<p id="ambilights"> sort by Ambilights</p>
+
+<button onclick=soldOutTelevision() type="button"> Sold Out </button>
+<p id="soldOuts"> sold out</p>
+
+<script src="main.js"></script>
+<script src="opdracht-one.js"></script>
+<script src="opdracht-two.js"></script>
+<script src="opdracht-three.js"></script>
+<script src="opdracht-four.js"></script>
+<script src="bonus-opdracht.js"></script>
 </body>
 </html>
